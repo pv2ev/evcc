@@ -86,6 +86,8 @@ require (
 	google.golang.org/grpc v1.47.0
 	google.golang.org/protobuf v1.28.0
 	gopkg.in/yaml.v3 v3.0.1
+	gorm.io/driver/mysql v1.3.6
+	gorm.io/driver/postgres v1.3.9
 	gorm.io/driver/sqlite v1.3.6
 	gorm.io/gorm v1.23.8
 )
@@ -182,8 +184,6 @@ require (
 	gopkg.in/sourcemap.v1 v1.0.5 // indirect
 	gopkg.in/square/go-jose.v2 v2.6.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gorm.io/driver/mysql v1.3.6 // indirect
-	gorm.io/driver/postgres v1.3.9 // indirect
 	nhooyr.io/websocket v1.8.7 // indirect
 )
 
