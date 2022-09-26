@@ -1,25 +1,22 @@
 product:
-  brand: Sonnenbatterie
-  description: Eco/10
+  brand: Solarwatt
+  description: MyReserve
 render:
   - usage: grid
     default: |
       type: template
-      template: sonnenbatterie-eco10
+      template: solarwatt
       usage: grid
       host: 192.0.2.2 # IP-Adresse oder Hostname
-      port: 8080 # Port # Optional
   - usage: pv
     default: |
       type: template
-      template: sonnenbatterie-eco10
+      template: solarwatt
       usage: pv
       host: 192.0.2.2 # IP-Adresse oder Hostname
-      port: 8080 # Port # Optional
   - usage: battery
     default: |
       type: template
-      template: sonnenbatterie-eco10
+      template: solarwatt
       usage: battery
       host: 192.0.2.2 # IP-Adresse oder Hostname
-      port: 8080 # Port # Optional
